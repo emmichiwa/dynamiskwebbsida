@@ -1,0 +1,24 @@
+#logo img {
+    width: 300px; 
+}
+
+#header-img img{
+    width: 375px; 
+}
+
+.home-text {
+    width: 375px;
+    height: 375px;
+    background-color: rgb(210, 224, 215); 
+}
+
+.home-text h3 {
+    font-weight: 400;
+    font-size: 1em;
+    padding: 120px 24px 0px 24px;
+} 
+
+.home-text p{
+    font-weight: 600;
+    padding: 0px 24px 0px 24px;
+} 
