@@ -55,15 +55,15 @@ p{
 
 .restaurant-logo img {
     width: 100px;
-    margin: 24px 24px 0px 24px;
 }
 
-#restaurant-info {
+.section-info {
     width: 150px; 
     background-color: white; 
+    padding: 25px; 
 }
 
-#restaurant-text {
-    text-align: left;
-    padding: 24px; 
+#footer-logo img {
+    width: 100px;
+    padding-top: 24px; 
 }
