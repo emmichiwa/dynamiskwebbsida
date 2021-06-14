@@ -2,13 +2,15 @@ body {
     max-width: 375px;
 }
 
+
+
 h3 {
     font-weight: 400;
     font-size: 1em;
 } 
 
 #header-logo img {
-    width: 300px; 
+    max-width: 100px; 
 }
 
 #header-img img{
