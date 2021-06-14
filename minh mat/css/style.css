@@ -1,4 +1,13 @@
-#logo img {
+body {
+    max-width: 375px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1em;
+} 
+
+#header-logo img {
     width: 300px; 
 }
 
@@ -6,8 +15,11 @@
     width: 375px; 
 }
 
+#home-section {
+    margin-bottom: 24px; 
+}
+
 #div-vegokartan, #div-svd, #div-starwinelist {
-    width: 375px;
     background-color: rgb(210, 224, 215); 
 }
 
@@ -18,12 +30,40 @@
     text-align: center;
 }
 
-.section-text h3 {
+h3 {
     font-weight: 400;
     font-size: 1em;
 } 
 
-.section-text p{
+p{
     font-weight: 600;
-    padding: 0px 24px 0px 24px;
 } 
+
+#instagram-section {
+    padding: 8px; 
+    text-align: center;
+}
+
+.tba-js {
+    background-color: rgb(218,208,238); 
+}
+
+#map-background {
+    background-color: rgb(238,233,208); 
+    padding: 25px; 
+}
+
+.restaurant-logo img {
+    width: 100px;
+    margin: 24px 24px 0px 24px;
+}
+
+#restaurant-info {
+    width: 150px; 
+    background-color: white; 
+}
+
+#restaurant-text {
+    text-align: left;
+    padding: 24px; 
+}
