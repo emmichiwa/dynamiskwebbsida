@@ -1,172 +1,209 @@
-body {
-    margin: 0px auto; 
-    max-width: 375px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5em;
+/*----------------DESKTOP---------------*/
+@media only screen and (min-width: 769px) and (max-width: 1020px) {
+
+    body {
+        background-color: #BEFFE4;
+    }
 }
 
-h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    margin: 0px;
+/*----------------TABLET---------------*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    body {
+        background-color: #A890E5;
+    }
 }
 
-h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    margin: 0px;
-}
+/*----------------MOBILE---------------*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
-h3 {
-    font-weight: 300;
-    font-size: 1em;
-    margin: 0px;
-} 
+    body {
+        background-color: white;
+        margin: 0px auto;
+        max-width: 375px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.5em;
+    }
 
-p{
-    font-weight: 600;
-    margin: 0px;
-} 
+    h1 {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        line-height: 1.2em;
+    }
 
-ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px; 
-}
+    h2 {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        margin: 0px;
+    }
 
-a {
-    text-decoration: none;
-    color: black; 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 1em;
-}
+    h3 {
+        font-weight: 300;
+        font-size: 1em;
+        margin: 0px;
+    } 
 
-button {
-    background-color: rgb(140,178,149); 
-    border-radius: 0.25em;
-    padding: 5px 8px 5px 8px; 
-    border-style: none;
-}
+    p{
+        font-weight: 600;
+        margin: 0px;
+    } 
 
-img {
-    max-width: 375px; 
-}
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px; 
+    }
 
-.desktop {
-    display: none;
-}
+    a {
+        text-decoration: none;
+        color: black; 
+        font-weight: 400;
+        font-size: 1em;
+        transition: color 0.3s;
+    }
 
-/*--------HEADER--------*/
-.header-img-container h1 {
-    text-align: center;
-    margin: 32px 0px 16px 0px;
-}
+    a:hover {
+        color: rgb(61,141,115); 
+    }
 
-.header-img-container h2 {
-    text-align: center;
-    margin: 0px 0px 32px 0px;
-}
+    button {
+        background-color: rgb(140,178,149); 
+        border-radius: 0.25em;
+        padding: 5px 8px 5px 8px; 
+        border-style: none;
+    }
 
-/*--------NAVBAR--------*/
-.navbar-logo img {
-    max-width: 100px; 
-    padding: 8px 0px 8px 0px; 
-}
+    img {
+        max-width: 375px; 
+    }
 
-.navbar-container {
-    background-color: rgb(210, 224, 215); 
-}
+    .desktop {
+        display: none;
+    }
 
-.navbar-links li{
-    padding: 10px;
-}
+    /*--------HEADER--------*/
+    .header-img-container h1 {
+        text-align: center;
+        margin: 32px 0px 16px 0px;
+    }
 
-.navbar-button{
-    padding: 8px; 
-}
+    .header-img-container h2 {
+        text-align: center;
+        margin: 0px 0px 32px 0px;
+    }
 
-.navbar-social-media-icons{
-    display: inline-block;
-    padding: 10px 0px 10px 10px; 
-}
+    .header-text {
+        text-align: center;
+        width: 150px; 
+    }
 
-/*-------HOME - general--------*/
-.home-container {
-    margin-bottom: 24px; 
-}
+    /*--------NAVBAR--------*/
+    .navbar-logo {
+        padding: 0 0 0 24;
+    }
 
-.vegokartan-container, .svd-container, .starwinelist-container {
-    background-color: rgb(210, 224, 215); 
-}
+    .navbar-logo img {
+        max-width: 100px; 
+        padding: 8px 0px 8px 0px; 
+    }
 
-.vegokartan-container p, .svd-container p, .starwinelist-container p{
-    margin-top: 32px; 
-}
+    .navbar-container {
+        background-color: rgb(210, 224, 215); 
+        padding: 18px; 
+    }
 
-.vegokartan-container img {
-    height: 375px; 
-}
+    .navbar-links li{
+        margin: 8px;
+    }
 
-.text-container {
-    width: 0px auto;
-    text-align: center;
-    padding: 32px; 
-    height: 275px; 
-}
+    .navbar-button{
+        padding: 8px; 
+    }
 
-.starwinelist-img img {
-    padding-top: 32px; 
-    width: 120px; 
-}
+    .navbar-social-media-icons{
+        margin: 8px; 
+    }
 
-/*-------INSTAGRAM Section-------*/
+    /*-------HOME - general--------*/
+    .home-container {
+        margin-bottom: 24px; 
+    }
 
-.instagram-section-container {
-    margin-top: 24px 0px 16px 0px; 
-    text-align: center;
-    overflow: hidden;
-}
+    .vegokartan-container, .svd-container, .starwinelist-container {
+        background-color: rgb(210, 224, 215); 
+    }
 
-.instagram-section-container h3 {
-    color: rgb(76,190,222); 
-}
+    .vegokartan-container p, .svd-container p, .starwinelist-container p{
+        margin-top: 32px; 
+    }
 
-/*-------MAP Section-------*/
+    .vegokartan-container img {
+        height: 375px; 
+    }
 
-.map-section-container {
-    background-color: rgb(238,233,208); 
-    padding: 25px; 
-}
+    .text-container {
+        width: 0px auto;
+        text-align: center;
+        padding: 32px; 
+        height: 275px; 
+    }
 
-.restaurant-info-container {
-    background-color: white;
-    width: 128px;
-    padding: 25px; 
-}
+    .starwinelist-img img {
+        padding-top: 32px; 
+        width: 120px; 
+    }
 
-.restaurant-logo img {
-    width: 100px;
-}
+    /*-------INSTAGRAM Section-------*/
 
-.contact {
-    width: 150px; 
-    margin-top: 24px; 
-}
+    .instagram-section-container {
+        margin-top: 24px 0px 16px 0px; 
+        text-align: center;
+        overflow: hidden;
+    }
 
-/*-------FOOTER-------*/
+    .instagram-section-container h3 {
+        color: rgb(76,190,222); 
+    }
 
-.opening-hours {
-    width: 150px; 
-    margin-top: 24px; 
-}
+    /*-------MAP Section-------*/
 
-.footer-social-media-icons {
-    display: inline-block;
-    padding: 10px 0px 10px 0px; 
-}
+    .map-section-container {
+        background-color: rgb(238,233,208); 
+        padding: 25px; 
+    }
 
-.footer-logo img {
-    width: 100px;
-    margin-bottom: 32px;
+    .restaurant-info-container {
+        background-color: white;
+        width: 128px;
+        padding: 25px; 
+    }
+
+    .restaurant-logo img {
+        width: 100px;
+    }
+
+    .contact {
+        width: 150px; 
+        margin-top: 24px; 
+    }
+
+    /*-------FOOTER-------*/
+    footer {
+        padding: 0 32 32 32;  
+    }
+
+    .opening-hours {
+        width: 150px; 
+        margin-top: 24px; 
+    }
+
+    .footer-social-media-icons {
+        padding: 10px 0px 10px 0px; 
+    }
+
+    .footer-logo img {
+        width: 100px;
+        margin-bottom: 32px;
+    }
+
 }
