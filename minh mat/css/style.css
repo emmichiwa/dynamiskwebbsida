@@ -1,57 +1,147 @@
 body {
+    margin: 0px auto; 
     max-width: 375px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
 }
 
-
-
-h3 {
-    font-weight: 400;
-    font-size: 1em;
-} 
-
-#header-logo img {
-    max-width: 100px; 
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin: 0px;
 }
 
-#header-img img{
-    width: 375px; 
-}
-
-#home-section {
-    margin-bottom: 24px; 
-}
-
-#div-vegokartan, #div-svd, #div-starwinelist {
-    background-color: rgb(210, 224, 215); 
-}
-
-.section-text {
-    width: 0px auto;
-    padding: 25px; 
-    min-height: 275px; 
-    text-align: center;
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin: 0px;
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1em;
+    margin: 0px;
 } 
 
 p{
     font-weight: 600;
+    margin: 0px;
 } 
 
-#instagram-section {
-    padding: 8px; 
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+button {
+    background-color: rgb(140,178,149); 
+    border-radius: 0.25em;
+    padding: 5px 8px 5px 8px; 
+    border-style: none;
+}
+
+img {
+    max-width: 375px; 
+}
+
+.desktop {
+    display: none;
+}
+
+/*--------HEADER--------*/
+.header-img-container h1 {
     text-align: center;
+    margin: 32px 0px 16px 0px;
 }
 
-.tba-js {
-    background-color: rgb(218,208,238); 
+.header-img-container h2 {
+    text-align: center;
+    margin: 0px 0px 32px 0px;
 }
 
-#map-background {
+/*--------NAVBAR--------*/
+.navbar-logo img {
+    max-width: 100px; 
+    padding: 8px 0px 8px 0px; 
+}
+
+.navbar-container {
+    background-color: rgb(210, 224, 215); 
+}
+
+.navbar-links li{
+    padding: 10px;
+}
+
+.navbar-button{
+    padding: 8px; 
+}
+
+.navbar-social-media-icons{
+    display: inline-block;
+    padding: 10px 0px 10px 10px; 
+}
+
+/*-------HOME - general--------*/
+.home-container {
+    margin-bottom: 24px; 
+}
+
+.vegokartan-container, .svd-container, .starwinelist-container {
+    background-color: rgb(210, 224, 215); 
+}
+
+.vegokartan-container p, .svd-container p, .starwinelist-container p{
+    margin-top: 32px; 
+}
+
+.vegokartan-container img {
+    height: 375px; 
+}
+
+.text-container {
+    width: 0px auto;
+    text-align: center;
+    padding: 32px; 
+    height: 275px; 
+}
+
+.starwinelist-img img {
+    padding-top: 32px; 
+    width: 120px; 
+}
+
+/*-------INSTAGRAM Section-------*/
+
+.instagram-section-container {
+    margin-top: 24px 0px 16px 0px; 
+    text-align: center;
+    overflow: hidden;
+}
+
+.instagram-section-container h3 {
+    color: rgb(76,190,222); 
+}
+
+/*-------MAP Section-------*/
+
+.map-section-container {
     background-color: rgb(238,233,208); 
+    padding: 25px; 
+}
+
+.restaurant-info-container {
+    background-color: white;
+    width: 128px;
     padding: 25px; 
 }
 
@@ -59,13 +149,24 @@ p{
     width: 100px;
 }
 
-.section-info {
+.contact {
     width: 150px; 
-    background-color: white; 
-    padding: 25px; 
+    margin-top: 24px; 
 }
 
-#footer-logo img {
+/*-------FOOTER-------*/
+
+.opening-hours {
+    width: 150px; 
+    margin-top: 24px; 
+}
+
+.footer-social-media-icons {
+    display: inline-block;
+    padding: 10px 0px 10px 0px; 
+}
+
+.footer-logo img {
     width: 100px;
-    padding-top: 24px; 
+    margin-bottom: 32px;
 }
