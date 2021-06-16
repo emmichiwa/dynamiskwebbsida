@@ -1,3 +1,66 @@
+body {
+    background-color: white;
+    width: 768px;
+    margin: 24px auto 24px auto; 
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1em;
+    margin: 0px;
+} 
+
+p{
+    font-weight: 600;
+    margin: 0px;
+} 
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+    font-weight: 400;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: rgb(61,141,115); 
+}
+
+button {
+    background-color: rgb(140,178,149); 
+    border-radius: 0.25em;
+    padding: 5px 8px 5px 8px; 
+    border-style: none;
+}
+
+/*--------NAVBAR--------*/
+
+.navbar-logo img {
+    max-width: 100px; 
+    padding: 8px 0px 8px 0px; 
+}
+
 /*----------------DESKTOP---------------*/
 @media only screen and (min-width: 769px) and (max-width: 1020px) {
 
@@ -17,84 +80,12 @@
 /*----------------MOBILE---------------*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
-    body {
-        background-color: white;
-        margin: 0px auto;
-        max-width: 375px;
-        font-family: 'Roboto', sans-serif;
-        line-height: 1.5em;
-    }
-
-    h1 {
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 500;
-        line-height: 1.2em;
-    }
-
-    h2 {
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 500;
-        margin: 0px;
-    }
-
-    h3 {
-        font-weight: 300;
-        font-size: 1em;
-        margin: 0px;
-    } 
-
-    p{
-        font-weight: 600;
-        margin: 0px;
-    } 
-
-    ul {
-        list-style: none;
-        margin: 0px;
-        padding: 0px; 
-    }
-
-    a {
-        text-decoration: none;
-        color: black; 
-        font-weight: 400;
-        font-size: 1em;
-        transition: color 0.3s;
-    }
-
-    a:hover {
-        color: rgb(61,141,115); 
-    }
-
-    button {
-        background-color: rgb(140,178,149); 
-        border-radius: 0.25em;
-        padding: 5px 8px 5px 8px; 
-        border-style: none;
-    }
-
     img {
         max-width: 375px; 
     }
 
     .desktop {
         display: none;
-    }
-
-    /*--------HEADER--------*/
-    .header-img-container h1 {
-        text-align: center;
-        margin: 32px 0px 16px 0px;
-    }
-
-    .header-img-container h2 {
-        text-align: center;
-        margin: 0px 0px 32px 0px;
-    }
-
-    .header-text {
-        text-align: center;
-        width: 150px; 
     }
 
     /*--------NAVBAR--------*/
