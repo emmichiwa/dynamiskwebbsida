@@ -1,52 +1,60 @@
 body {
     background-color: white;
-    width: 768px;
-    margin: 24px auto 24px auto; 
+    margin: 0px auto; 
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 8px; 
 }
 
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    line-height: 1.2em;
+    margin: 0px;
 }
-
 h2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     margin: 0px;
 }
-
 h3 {
     font-weight: 300;
     font-size: 1em;
     margin: 0px;
 } 
-
 p{
     font-weight: 600;
     margin: 0px;
 } 
-
 ul {
     list-style: none;
     margin: 0px;
     padding: 0px; 
 }
+a {
+    text-decoration: none;
+    color: black; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
 
 a {
     text-decoration: none;
     color: black; 
-    font-weight: 400;
-    font-size: 1em;
     transition: color 0.3s;
 }
 
 a:hover {
     color: rgb(61,141,115); 
 }
-
 button {
     background-color: rgb(140,178,149); 
     border-radius: 0.25em;
@@ -54,147 +62,146 @@ button {
     border-style: none;
 }
 
-/*--------NAVBAR--------*/
+.mobile {
+    display: none;
+}
 
+.clear {
+    overflow: hidden;
+}
+
+/*--------NAVBAR--------*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-logo {
+    padding: 0 0 0 24;
+}
 .navbar-logo img {
     max-width: 100px; 
     padding: 8px 0px 8px 0px; 
 }
-
-/*----------------DESKTOP---------------*/
-@media only screen and (min-width: 769px) and (max-width: 1020px) {
-
-    body {
-        background-color: #BEFFE4;
-    }
+.navbar-container {
+    background-color: rgb(210, 224, 215); 
+    padding: 18px; 
+}
+.navbar a{
+    font-weight: 500;
+    margin: 8px;
+}
+.navbar-button{
+    padding: 8px; 
 }
 
-/*----------------TABLET---------------*/
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-
-    body {
-        background-color: #A890E5;
-    }
+ /*-------HOME-Main Section-------*/
+.hero-img img {
+    width: 100%;
+    height: 500px; 
 }
 
-/*----------------MOBILE---------------*/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-
-    img {
-        max-width: 375px; 
-    }
-
-    .desktop {
-        display: none;
-    }
-
-    /*--------NAVBAR--------*/
-    .navbar-logo {
-        padding: 0 0 0 24;
-    }
-
-    .navbar-logo img {
-        max-width: 100px; 
-        padding: 8px 0px 8px 0px; 
-    }
-
-    .navbar-container {
-        background-color: rgb(210, 224, 215); 
-        padding: 18px; 
-    }
-
-    .navbar-links li{
-        margin: 8px;
-    }
-
-    .navbar-button{
-        padding: 8px; 
-    }
-
-    .navbar-social-media-icons{
-        margin: 8px; 
-    }
-
-    /*-------HOME - general--------*/
-    .home-container {
-        margin-bottom: 24px; 
-    }
-
-    .vegokartan-container, .svd-container, .starwinelist-container {
-        background-color: rgb(210, 224, 215); 
-    }
-
-    .vegokartan-container p, .svd-container p, .starwinelist-container p{
-        margin-top: 32px; 
-    }
-
-    .vegokartan-container img {
-        height: 375px; 
-    }
-
-    .text-container {
-        width: 0px auto;
-        text-align: center;
-        padding: 32px; 
-        height: 275px; 
-    }
-
-    .starwinelist-img img {
-        padding-top: 32px; 
-        width: 120px; 
-    }
-
-    /*-------INSTAGRAM Section-------*/
-
-    .instagram-section-container {
-        margin-top: 24px 0px 16px 0px; 
-        text-align: center;
-        overflow: hidden;
-    }
-
-    .instagram-section-container h3 {
-        color: rgb(76,190,222); 
-    }
-
-    /*-------MAP Section-------*/
-
-    .map-section-container {
-        background-color: rgb(238,233,208); 
-        padding: 25px; 
-    }
-
-    .restaurant-info-container {
-        background-color: white;
-        width: 128px;
-        padding: 25px; 
-    }
-
-    .restaurant-logo img {
-        width: 100px;
-    }
-
-    .contact {
-        width: 150px; 
-        margin-top: 24px; 
-    }
-
-    /*-------FOOTER-------*/
-    footer {
-        padding: 0 32 32 32;  
-    }
-
-    .opening-hours {
-        width: 150px; 
-        margin-top: 24px; 
-    }
-
-    .footer-social-media-icons {
-        padding: 10px 0px 10px 0px; 
-    }
-
-    .footer-logo img {
-        width: 100px;
-        margin-bottom: 32px;
-    }
-
+.home-container {
+    max-width: 960px;
+    margin: 0px auto; 
 }
+
+.text-container {
+    width: 0px auto;
+    text-align: center;
+    padding: 32px; 
+    height: 275px; 
+}
+
+.vegokartan-container, .svd-container, .starwinelist-container {
+    display: flex;
+    background-color: rgb(210,224,215);
+}
+
+.vegokartan-container img, .svd-container img, .starwinelist-container img {
+    width: 50%;
+}
+
+.vegokartan-container p, .svd-container p, .starwinelist-container p{
+    margin-top: 32px; 
+}
+
+.starwinelist-img img {
+    padding-top: 32px; 
+    width: 120px; 
+}
+
+/*-------INSTAGRAM Section-------*/
+.instagram-section-container {
+    height: 250px; 
+    background-color: lightgray;
+    margin: 24px 0px 0px 0px; 
+    text-align: center;
+}
+.instagram-section-container h3 {
+    color: rgb(76,190,222); 
+}
+
+/*-------MAP Section-------*/
+.map-section-container {
+    background-color: rgb(238,233,208); 
+    height: 225px; 
+    padding: 24px; 
+}
+
+.resaturant-info-wrapper {
+    width: 960px; 
+    margin: 0px auto;
+}
+.restaurant-info-container {
+    background-color: white;
+    width: 128px;
+    padding: 25px; 
+}
+.restaurant-logo img {
+    width: 100px;
+}
+.contact {
+    width: 150px; 
+    margin-top: 24px; 
+}
+/*-------FOOTER-------*/
+
+footer {
+    max-width: 960px;
+    margin: 0px auto; 
+    background-color: violet;
+    padding: 24px; 
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.opening-hours {
+    margin-top: 24px;
+}
+
+.footer-logo {
+    margin-top: 32px; 
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-social-media-icons {
+    padding: 10px 0px 10px 0px; 
+}
+
+
+
+
+
+
+
+
+
