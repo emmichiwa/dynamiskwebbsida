@@ -93,37 +93,12 @@ button {
     height: 500px; 
 }
 
-.home-container {
+.all-content-wrapper {
     max-width: 960px;
     margin: 0px auto; 
 }
 
-.text-container {
-    width: 0px auto;
-    text-align: center;
-    padding: 32px; 
-    height: 275px; 
-    width: 50%;
-}
-
-.vegokartan-container, 
-.svd-container, 
-.starwinelist-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: rgb(210,224,215);
-}
-
-.vegokartan-container img, 
-.svd-container img, 
-.starwinelist-container img {
-    width: 50%;
-}
-
-.vegokartan-container p, 
-.svd-container p, 
-.starwinelist-container p{
+.content p{
     margin-top: 32px; 
 }
 
