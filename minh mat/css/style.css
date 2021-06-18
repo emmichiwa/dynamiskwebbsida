@@ -104,7 +104,6 @@ button {
 section.content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: red; 
 }
 
 section.content img {
@@ -118,7 +117,7 @@ section.content h3{
     grid-column: 7 / span 12;
     text-align: center;
     padding: 32px; 
-    margin-top: 25%; 
+    background-color: rgb(210,224,215);
 }
 
 /*---FULL WIDTH CONTENT Section---*/
