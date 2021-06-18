@@ -150,14 +150,11 @@ footer {
     height: 180px; 
 }
 
-.footer-container {
+.footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-}
-
-.opening-hours {
-    margin-top: 24px;
+    margin-top: 32px;
 }
 
 .footer-logo img {
@@ -212,13 +209,16 @@ footer {
     }
 
     /*---FOOTER---*/
+    footer {
+        height: 380px; 
+    }
 
-    .footer-container {
+    .footer {
         display: block; 
     }
 
-    footer {
-        height: 380px; 
+    .footer-contact {
+        margin-top: 24px; 
     }
 
     .footer-logo-social {
