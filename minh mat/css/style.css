@@ -85,86 +85,89 @@ button {
     padding: 8px; 
 }
 
-
-
- /*---HOME-Main Section---*/
+ /*---MAIN CONTENT Section---*/
 .hero-img img {
     width: 100%;
     height: 500px; 
 }
 
-.home-container {
-    max-width: 960px;
+.main-content {
+    width: 960px; 
     margin: 0px auto; 
+    
 }
 
-.text-container {
-    width: 0px auto;
-    text-align: center;
-    padding: 32px; 
-    height: 275px; 
-    width: 50%;
-}
-
-.vegokartan-container, 
-.svd-container, 
-.starwinelist-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: rgb(210,224,215);
-}
-
-.vegokartan-container img, 
-.svd-container img, 
-.starwinelist-container img {
-    width: 50%;
-}
-
-.vegokartan-container p, 
-.svd-container p, 
-.starwinelist-container p{
+.content p{
     margin-top: 32px; 
 }
 
-.starwinelist-img img {
-    padding-top: 32px; 
-    width: 120px; 
+section.content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-flow: dense;
 }
 
-/*---INSTAGRAM Section---*/
-.instagram-section-container {
+section.content div.image {
+    grid-column: 1 / 7;
+}
+
+section.content img {
+    max-height: 480px;
+}
+
+section.content div.text{
+    grid-column: 7 / span 12;
+    text-align: center;
+    padding: 32px; 
+    background-color: rgb(210,224,215);
+}
+
+section.content-alt div.image {
+    grid-column: 7 / span 12;
+
+}
+
+section.content-alt div.text{
+    grid-column: 1 / 7;
+}
+
+/*---FULL WIDTH CONTENT Section---*/
+
+/*---Instagram Section---*/
+.instagram-content {
     height: 250px; 
     margin: 24px 0px 0px 0px; 
     text-align: center;
+    background-color: lightgray
 }
-.instagram-section-container h3 {
+.instagram-content h3 {
     color: rgb(76,190,222); 
 }
 
-/*-----MAP Section-----*/
-.map-section-container {
+/*-----Map Section-----*/
+.map-content {
     background-color: rgb(238,233,208); 
     height: 225px; 
-    padding: 24px; 
+    padding: 22px; 
 }
 
-.resaturant-info-wrapper {
-    max-width: 960px; 
+.address-info-wrapper {
+    width: 960px;
     margin: 0px auto;
 }
-.restaurant-info-container {
+
+.address-info {
     background-color: white;
     width: 128px;
     padding: 25px; 
+    margin-top: 8px; 
 }
-.restaurant-logo img {
+
+.logo img {
     width: 100px;
+    margin-bottom: 16px; 
 }
-.contact {
-    width: 150px; 
-    margin-top: 24px; 
-}
+
 /*-----FOOTER-----*/
 
 footer {
@@ -174,14 +177,11 @@ footer {
     height: 180px; 
 }
 
-.footer-container {
+.footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-}
-
-.opening-hours {
-    margin-top: 24px;
+    margin-top: 32px;
 }
 
 .footer-logo img {
@@ -236,13 +236,16 @@ footer {
     }
 
     /*---FOOTER---*/
+    footer {
+        height: 380px; 
+    }
 
-    .footer-container {
+    .footer {
         display: block; 
     }
 
-    footer {
-        height: 380px; 
+    .footer-contact {
+        margin-top: 24px; 
     }
 
     .footer-logo-social {
