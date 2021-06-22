@@ -93,8 +93,8 @@ button {
  /*---MAIN CONTENT Section---*/
 .hero-img img {
     width: 100%;
-    height: 450px;
-    object-fit: cover;
+    max-height: 500px;
+    object-fit: cover; 
 }
 
 .main-content {
@@ -233,6 +233,10 @@ footer {
     .navbar-button {
         margin-bottom: 16px; 
     }
+
+    .hero-img img {
+        height: 400px;
+    }
 }
 
 /******************MOBILE******************/
@@ -241,6 +245,10 @@ footer {
 
     body {
         background-color: greenyellow;
+    }
+
+    .hero-img img {
+        height: auto;
     }
 
     /*---HOME-Main section---*/
