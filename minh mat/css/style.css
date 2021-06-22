@@ -213,10 +213,6 @@ footer {
         margin: 0px;
     }
     
-    .desktop {
-        display: none;
-    }
-
     /*-----NAVBAR-----*/
     .navbar {
         display: block;
@@ -245,6 +241,10 @@ footer {
 
     body {
         background-color: greenyellow;
+    }
+
+    .desktop {
+        display: none;
     }
 
     .hero-img img {
