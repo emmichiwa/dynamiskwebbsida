@@ -157,7 +157,7 @@ section.content-alt div.text{
 }
 
 .address-info-wrapper {
-    width: 960px;
+    max-width: 960px;
     margin: 0px auto;
 }
 
@@ -199,12 +199,20 @@ footer {
     text-align: right;
 }
 
+@media screen and (max-width: 960px) {
+
+    body {
+        background-color: palevioletred;
+        width: auto; 
+    }
+}
+
 /******************MOBILE******************/
 
 @media screen and (max-width: 600px) {
 
     body {
-        background-color: limegreen;
+        background-color: greenyellow;
     }
 
     header {
