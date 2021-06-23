@@ -230,9 +230,14 @@ footer {
         margin-bottom: 16px; 
     }
 
+    /*-----MAIN-----*/
     .hero-img img {
         height: 400px;
     }
+
+    section.content div.text {
+        padding: 20px;
+    }    
 }
 
 /******************MOBILE******************/
@@ -252,14 +257,18 @@ footer {
     }
 
     /*---HOME-Main section---*/
-    .vegokartan-container, 
-    .svd-container, 
-    .starwinelist-container {
-        display: block; 
+
+    section.content, section.content div.image, section.content div.text {
+        grid-template-columns: repeat(4, 1fr);
     }
 
-    .text-container {
-        margin: 0px auto; 
+    section.content, section.content div.image, section.content div.text {
+        grid-column: 1 / span 4;
+    }
+
+    section.content div.text {
+        padding: 42px; 
+        min-height: 180px; 
     }
 
     /*---FOOTER---*/
