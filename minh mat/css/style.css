@@ -228,7 +228,7 @@ footer {
     }
 
     .navbar {
-        display: block;
+        display: none;
         align-items: flex-start;
         background-color: rgb(210,224,215);
         padding: 18px; 
