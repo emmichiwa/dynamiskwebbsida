@@ -68,13 +68,17 @@ button {
 }
 
 /*-----NAVBAR-----*/
+.mobile {
+    display: none; 
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.navbar-logo img {
+.navbar-logo a img {
     width: 100px; 
     margin: 24px 24px 8px 24px; 
 }
@@ -91,6 +95,7 @@ button {
 }
 
  /*---MAIN CONTENT Section---*/
+
 .hero-img img {
     width: 100%;
     height: 500px;
@@ -214,6 +219,14 @@ footer {
     }
     
     /*-----NAVBAR-----*/
+
+    .mobile {
+        display: block;
+        width: 35px;
+        float: right;
+        margin: 24px 24px 8px 24px;
+    }
+
     .navbar {
         display: block;
         align-items: flex-start;
