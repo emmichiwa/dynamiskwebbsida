@@ -126,7 +126,7 @@ section.content img {
     width: 100%;
 }
 
-section.content div.text{
+section.content div.box{
     grid-column: 7 / span 6;
     text-align: center;
     padding: 32px; 
@@ -138,8 +138,52 @@ section.content-alt div.image {
 
 }
 
-section.content-alt div.text{
+section.content-alt div.box{
     grid-column: 1 / 7;
+}
+
+section.content-alt img.icon-table {
+    width: 25%;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 800px;
+    margin: 132px 0px 0px 80px;
+}
+
+.circles a {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -30px;
+    font-weight: 600;
+}
+
+.circle-one, .circle-two, .circle-three {
+    background-color: white;
+    width: 230px; 
+    height: 230px; 
+    border-radius: 100%; 
+    text-align: center;
+}
+
+#box-booking {
+    background-color: rgb(55,126,128); 
+}
+
+#box-booking h3{
+    color: white; 
+    margin-top: 8px; 
+}
+
+#box-booking button{
+    color: white;
+    margin-top: 24px;
+    font-weight: 700;
+    padding: 12px 16px;
 }
 
 /*---FULL WIDTH CONTENT Section---*/
@@ -151,7 +195,11 @@ section.content-alt div.text{
     text-align: center;
     background-color: lightgray
 }
-.instagram-content h3 {
+.section-header{
+    padding: 24px 0px 8px 0px; 
+    text-align: center;
+}
+.section-header h3 {
     color: rgb(76,190,222); 
 }
 
@@ -248,7 +296,7 @@ footer {
         height: 400px;
     }
 
-    section.content div.text {
+    section.content div.box {
         padding: 20px;
     }    
 }
@@ -271,15 +319,15 @@ footer {
 
     /*---HOME-Main section---*/
 
-    section.content, section.content div.image, section.content div.text {
+    section.content, section.content div.image, section.content div.box {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    section.content, section.content div.image, section.content div.text {
+    section.content, section.content div.image, section.content div.box {
         grid-column: 1 / span 4;
     }
 
-    section.content div.text {
+    section.content div.box {
         padding: 42px; 
         min-height: 180px; 
     }
