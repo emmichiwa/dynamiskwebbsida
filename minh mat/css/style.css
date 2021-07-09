@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: skyblue;
     margin: 0px auto; 
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
@@ -224,6 +224,47 @@ section.content-alt img.icon-table {
     text-align: left;
     padding: 10px;
 }
+
+.book-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: -100px;
+    margin-bottom: 62px;
+}
+#icon-takeaway img {
+    height: 62px; 
+}
+#icon-table img {
+    height: 52px; 
+}
+.image-takeaway {
+    width: 250px;
+    text-align: center;
+}
+.image-table {
+    width: 250px;
+    text-align: center;
+}
+
+.booking-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: -24px;
+}
+#takeaway, #book-table {
+    width: 250px; 
+    height: 48px;
+    border-radius: 20px;
+}
+
+#takeaway a, #book-table a {
+    margin-top: -100px;
+}
+
+
+
 
 /*---FULL WIDTH CONTENT Section---*/
 
