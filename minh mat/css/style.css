@@ -196,10 +196,12 @@ section.content-alt img.icon-table {
 
 #box-booking {
     background-color: rgb(55,126,128); 
+    text-align: center;
 }
 #box-booking h3{
     color: white; 
     margin-top: 8px; 
+    text-align: center;
 }
 #box-booking button{
     color: white;
