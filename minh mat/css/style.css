@@ -112,6 +112,11 @@ button {
     
 }
 
+#about-page h2, h3{
+    text-align: left;
+    padding: 10px; 
+}
+
 .content p{
     margin-top: 32px; 
 }
