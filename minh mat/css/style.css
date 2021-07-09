@@ -97,6 +97,12 @@ button {
 .navbar-button{
     padding: 8px; 
 }
+.navbar-button button{
+    box-shadow: 2px 3px 4px rgb(177,182,178);
+}
+.navbar-button a{
+    color: white; 
+}
 
  /*---MAIN CONTENT Section---*/
 
