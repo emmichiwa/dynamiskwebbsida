@@ -18,11 +18,13 @@ h1 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     margin: 0px;
+    font-size: 2.5em;
 }
 h2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     margin: 0px;
+    font-size: 1.5em;
 }
 h3 {
     font-weight: 300;
@@ -32,6 +34,7 @@ h3 {
 p{
     font-weight: 600;
     margin: 0px;
+    font-size: 1em;
 } 
 ul {
     list-style: none;
@@ -65,6 +68,7 @@ button {
     border-radius: 0.25em;
     padding: 5px 8px 5px 8px; 
     border-style: none;
+    color: white; 
 }
 
 /*-----NAVBAR-----*/
@@ -150,35 +154,53 @@ section.content-alt img.icon-table {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: absolute;
-    width: 800px;
-    margin: 132px 0px 0px 80px;
+    height: 480px; 
+    margin-top: -480px; 
 }
-
-.circles a {
-    margin-top: 100px;
-    position: absolute;
-    margin-left: -30px;
-    font-weight: 600;
-}
-
-.circle-one, .circle-two, .circle-three {
+.circles button {
     background-color: white;
     width: 230px; 
     height: 230px; 
     border-radius: 100%; 
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.circles h2 {
+    font-weight: 600;
+    text-shadow: 2px 2px 3px rgb(177,182,178);
+}
+
+.meny-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -25px;
+    margin-bottom: 18px;
+}
+.meny-buttons button{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 3px 4px rgb(177,182,178);
+}
+.meny-buttons a {
+    font-weight: 600; 
+    color: white; 
+}
+
+#takeaway {
+    background-color: rgb(142,47,60);
 }
 
 #box-booking {
     background-color: rgb(55,126,128); 
 }
-
 #box-booking h3{
     color: white; 
     margin-top: 8px; 
 }
-
 #box-booking button{
     color: white;
     margin-top: 24px;
@@ -299,7 +321,18 @@ footer {
     section.content div.box {
         padding: 20px;
     }    
+
+    .circles {
+        height: 384px;
+        margin-top: -384px; 
+    }
+    .circles button {
+        width: 200px; 
+        height: 200px; 
+    }
 }
+
+
 
 /******************MOBILE******************/
 
@@ -331,6 +364,36 @@ footer {
         padding: 42px; 
         min-height: 180px; 
     }
+    
+    #meny-box {
+        display: none;
+    }
+
+    .circles {
+        display: grid; 
+        align-items: baseline;
+        justify-content: center;
+        margin-top: -450px; 
+        height: 220px;
+    }
+    .circles button {
+        width: 350px;
+        height: 50px; 
+        border-radius: 25px;
+    }
+
+    .meny-buttons {
+        display: grid; 
+        align-items: flex-end;
+        justify-content: center;
+        height: 150px; 
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+    .meny-buttons button {
+        width: 350px; 
+        box-shadow: none;
+    }
 
     /*---FOOTER---*/
     footer {
@@ -353,6 +416,34 @@ footer {
         text-align: left;
     }
     
+}
+
+/******************MOBILE - version 2******************/
+
+@media screen and (max-width: 450px) {
+
+    body {
+        background-color: yellow;
+    }
+
+    .circles {
+        margin-top: -325px;
+        height: 150px;
+    }
+    .circles button {
+        width: 250px;
+        height: 40px; 
+    }
+
+    .meny-buttons {
+        height: 100px;
+        margin-top: 32px;
+        margin-bottom: 50px;
+    }
+    .meny-buttons button {
+        width: 250px; 
+        height: 40px; 
+    }
 }
 
 
