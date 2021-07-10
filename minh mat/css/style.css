@@ -293,16 +293,20 @@ section.content-alt img.icon-table {
     padding: 24px; 
 }
 
-.instagram-name {
+.social-media-instagram {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.instagram-name a{
+.social-media-instagram a{
     margin-right: 10px;
     color: rgb(61,141,115); 
     font-weight: 600;
+}
+
+.social-media-instagram img{
+    width: 24px;
 }
 
 .instagram-images {
@@ -319,7 +323,7 @@ section.content-alt img.icon-table {
 /*-----Map Section-----*/
 
 .map-image img {
-    height: 292px; 
+    height: 310px; 
     width: 100%;
     object-fit: cover;
 }
@@ -358,9 +362,16 @@ footer {
     text-align: center;
 }
 
-.footer-social-media-icons {
-    margin-top: 20px;
+.social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px; 
+}
+
+.social-media-icons img {
     text-align: right;
+    width: 30px; 
 }
 
 /******************TABLET******************/
@@ -572,7 +583,7 @@ footer {
         margin-top: 24px; 
     }
     
-    .footer-social-media-icons {
+    .social-media-icons {
         text-align: left;
     }
     
