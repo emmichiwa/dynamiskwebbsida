@@ -1,5 +1,5 @@
 body {
-    background-color: skyblue;
+    background-color: white;
     margin: 0px auto; 
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
@@ -397,10 +397,7 @@ footer {
 /******************TABLET******************/
 
 @media screen and (max-width: 940px) {
-    body {
-        background-color: orange;
-    }
-
+    
     .book-table-box h3 {
         font-size: 0.9em;
         line-height: 1.2em;
@@ -423,10 +420,6 @@ footer {
 /******************TABLET******************/
 
 @media screen and (max-width: 768px) {
-
-    body {
-        background-color: palevioletred;
-    }
 
     header {
         display: block;
@@ -512,10 +505,6 @@ footer {
 /******************MOBILE******************/
 
 @media screen and (max-width: 565px) {
-
-    body {
-        background-color: greenyellow;
-    }
 
     .desktop {
         display: none;
@@ -625,11 +614,7 @@ footer {
 /******************MOBILE - version 2******************/
 
 @media screen and (max-width: 450px) {
-
-    body {
-        background-color: yellow;
-    }
-
+    
     .circles {
         margin-top: -325px;
         height: 150px;
