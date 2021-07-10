@@ -283,6 +283,10 @@ section.content-alt img.icon-table {
 
 /*---FULL WIDTH CONTENT Section---*/
 
+.section-header {
+    text-align: center;
+}
+
 .section-header h3 {
     color: rgb(76,190,222); 
 }
