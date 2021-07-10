@@ -344,22 +344,23 @@ section.content-alt img.icon-table {
 /*-----FOOTER-----*/
 
 footer {
-    max-width: 960px;
+    max-width: 620px;
     margin: 0px auto; 
     padding: 24px; 
-    height: 180px; 
+    height: 200px; 
 }
 
 .footer {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 32px;
 }
 
 .footer-logo img {
+    float: right;
     width: 150px;
-    text-align: center;
+    margin-top: -50px;
 }
 
 .social-media-icons {
@@ -373,6 +374,16 @@ footer {
     text-align: right;
     width: 30px; 
 }
+
+ #footer-icons {
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+ }
+ #footer-icons img {
+    margin: 0px 5px; 
+ }
+
 
 /******************TABLET******************/
 
@@ -568,7 +579,7 @@ footer {
 
     /*---FOOTER---*/
     footer {
-        height: 380px; 
+        height: 450px; 
     }
 
     .footer {
@@ -585,6 +596,19 @@ footer {
     
     .social-media-icons {
         text-align: left;
+    }
+
+    .footer-logo {
+        text-align: center;
+
+    }
+    .footer-logo img {
+        float: none;
+        margin-top: 24px;
+    }
+
+    #footer-icons {
+        justify-content: flex-start;
     }
     
 }
