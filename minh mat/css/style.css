@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: skyblue;
     margin: 0px auto; 
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
@@ -27,6 +27,7 @@ h2 {
     font-size: 1.5em;
 }
 h3 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1em;
     margin: 0px;
@@ -118,7 +119,7 @@ button {
     
 }
 
-.content p{
+#main-page p{
     margin-top: 32px; 
 }
 
@@ -225,6 +226,56 @@ section.content-alt img.icon-table {
     padding: 10px;
 }
 
+#book-table-box {
+    text-align: left;
+}
+
+.book-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -102px;
+    margin-bottom: 65px;
+}
+#icon-takeaway img {
+    height: 62px; 
+}
+#icon-table img {
+    height: 52px; 
+}
+.image-takeaway,.image-table {
+    width: 250px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.booking-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -30px;
+}
+
+.booking-buttons button a {
+    color: white; 
+    font-weight: 600; 
+}
+
+#book-takeaway {
+    background-color: rgb(142,47,60);
+}
+
+#book-takeaway, #book-table {
+    width: 250px; 
+    height: 48px;
+    border-radius: 20px;
+    padding: 30px; 
+    margin-right: 24px;
+}
+#img-book-table img {
+    width: 100%;
+}
+
 /*---FULL WIDTH CONTENT Section---*/
 
 /*---Instagram Section---*/
@@ -294,6 +345,32 @@ footer {
 
 /******************TABLET******************/
 
+@media screen and (max-width: 940px) {
+    body {
+        background-color: orange;
+    }
+
+    .book-table-box h3 {
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+
+    #book-table-box{
+        grid-column: 6 / span 12;
+        padding: 24px; 
+    }
+    #book-table-image{
+        grid-column: 1 / span 4;   
+    }
+
+    section.content #book-table-image img {
+        width: auto; 
+    }
+    
+}
+
+/******************TABLET******************/
+
 @media screen and (max-width: 768px) {
 
     body {
@@ -320,12 +397,10 @@ footer {
         background-color: rgb(210,224,215);
         padding: 18px; 
     }
-
     .navbar-links {
         display: grid; 
 
     }
-
     .navbar-button {
         margin-bottom: 16px; 
     }
@@ -358,9 +433,30 @@ footer {
         font-size: 0.9em;
         line-height: 1.5em;
     }
+
+    #book-table-box{
+        grid-column: 1 / span 12;
+        padding: 48px 48px 84px 48px; 
+    }
+    #book-table-image{
+        display: none;   
+    }
+
+    .book-icons {
+        justify-content: center;
+    }
+    .image-takeaway,.image-table {
+        width: 50%;
+        margin-right: 0px;
+    }
+        
+    #takeaway, #book-table {
+        width: 50%; 
+        height: 48px;
+        border-radius: 0px;
+        margin-right: 0px;
+    }
 }
-
-
 
 /******************MOBILE******************/
 
@@ -421,6 +517,11 @@ footer {
     .meny-buttons button {
         width: 350px; 
         box-shadow: none;
+    }
+
+    #book-table-box{
+        grid-column: 1 / span 12;
+        padding: 24px 24px 84px 24px; 
     }
 
     /*---FOOTER---*/

@@ -19,9 +19,9 @@
             <nav class="navbar">
                 <div class="navbar-links">
                     <a href="index.html">HEM</a>                         
-                    <a href="meny.html" class="active">MENY</a> 
+                    <a href="meny.html">MENY</a> 
                     <a href="about.html">OM OSS</a> 
-                    <a href="book.html">BOKA BORD</a> 
+                    <a href="book.html" class="active">BOKA BORD</a> 
                 </div>
                 <div class="navbar-button">
                     <button class="giftcard" id="giftcard">
@@ -44,47 +44,66 @@
         </div>
         <div class="main-content">
             <section class="content">
-                <div class="image">
-                    <img src="img/meny-options.png" alt="">
+                <div class="image" id="book-table-image">
+                    <img src="img/interior-booking.png" id="img-book-table" alt="">
                 </div>
-                <div class="box" id="meny-box"></div>
-            </section>
-            <div class="circles">
-                <button class="circle-one">
-                    <a href="http://minhmat.se/menu/MinhMat_ALaCarte_2021_05.pdf"><h2>MIDDAG</h2></a>                         
-                </button>
-                <button class="circle-two">
-                    <a href="http://minhmat.se/menu/Covid_19.pdf"><h2>LUNCH</h2></a>                         
-                </button>
-                <button class="circle-three">
-                    <a href="https://starwinelist.com/storage/wine_lists/111/minh-mat.pdf?1622817419"><h2>VINLISTA</h2></a>                         
-                </button>
-            </div>
-            
-            <div class="meny-buttons">
-                <button class="takeaway" id="takeaway">
-                    <a href="http://minhmat.se/menu/MinhMat_TakeAway_2021_03b.pdf">TAKEAWAY</a>                         
-                </button>
-                <button class="english">
-                    <a href="http://minhmat.se/menu/MinhMat_ALaCarte_2021_05ENG.pdf">ENGLISH</a>                         
-                </button>
-            </div>
-            <div class="section-header">
-                <h3>BOKA BORD</h3>
-                <p>Välkommen att boka bord för middag.</p>
-            </div>
-            <section class="content content-alt" id="booking-section">
-                <div class="image">
-                    <img src="img/tables.png" class="desktop" alt="Header image">
-                </div>
-                <div class="box" id="box-booking">
-                    <img src="img/icon-table.png" class="icon-table" alt="">
-                    <h3>Bokningen är öppen en månad framåt.</h3>
-                    <h3>BOKA HÄR!<br>
-                    Vi tar inte bokningar på mejl.</h3>
-                    <button>BOKA BORD</button>
+                <div class="box" id="book-table-box">
+                    <h2>INFORMATION OM ATT BOKA BORD</h2>
+                    <br>
+                    <p>Välkomna att boka bord för middag. Bokningen är öppen en månad framåt.</p>
+                    <br>
+                    <p>ANTAL</p>
+                    <h3>
+                        Max 4 personer per sällskap. Det går inte att slå ihop två sällskap till ett större. 
+                        Meddela oss om barnstol behövs, men glöm inte att boka ett bord där även barnet 
+                        får en stol.
+                    </h3>
+                    <br>
+                    <p>SITTNING</p>
+                    <h3>
+                        Välj mellan 2-2 1/2 timmar sittningstid. Alla lediga tider visas i boknings-appen. Det går inte att själv välja bord.
+                    </h3>
+                    <br>
+                    <p>BEKRÄFTELSE</p>
+                    <h3>
+                        Bokningen bekräftas via mejl. Vänligen kontrollera alla uppgifter. Kontakta oss om du inte får en bekräftelse.
+                    </h3>
+                    <br>
+                    <p>DROP-IN</p>
+                    <h3>
+                        Vi har 4 drop-in platser i baren.
+                    </h3>
+                    <br>
+                    <p>KONTANTFRITT</p>
+                    <h3>
+                        För våra anställdas säkerhet ser vi gärna att du betalar med kort eller swish så de slipper hantera kontanter. Vill eller kan du inte det så går det självklart bra att betala med kontanter.
+                    </h3>
+                    <br>
+                    <h3>Avboka? Använd avbokningslänken i bekräftelsemejlet.</h3>
                 </div>
             </section>
+            <div class="booking-box">
+                <div class="booking-buttons">
+                    <button class="takeaway" id="book-takeaway">
+                        <a href="http://minhmat.se/menu/MinhMat_TakeAway_2021_03b.pdf">TAKEAWAY</a>                         
+                    </button>
+                    <button class="book" id="book-table">
+                        <a href="http://minhmat.se/menu/MinhMat_ALaCarte_2021_05ENG.pdf">BOKA BORD</a>                         
+                    </button>
+                </div>
+                <div class="book-icons">
+                    <div class="image-takeaway" id="icon-takeaway">
+                        <a href="http://minhmat.se/menu/MinhMat_TakeAway_2021_03b.pdf">
+                            <img src="img/icon_takeaway.png" alt="">
+                        </a>
+                    </div>
+                    <div class="image-table" id="icon-table">
+                        <a href="http://minhmat.se/menu/MinhMat_ALaCarte_2021_05ENG.pdf">
+                            <img src="img/icon-table.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="full-width-content">
             <section class="instagram-content">
