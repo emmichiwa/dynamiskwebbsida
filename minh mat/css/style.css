@@ -547,6 +547,17 @@ footer {
         padding: 24px 24px 84px 24px; 
     }
 
+    /*---Instagram Section---*/
+    .instagram-images {
+        display: grid;
+        justify-content: center;
+    }
+
+    .instagram-images img {
+        width: 100%;
+        padding-top: 15px;
+    }
+
     /*---FOOTER---*/
     footer {
         height: 380px; 
