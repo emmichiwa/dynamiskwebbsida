@@ -206,6 +206,11 @@ section.content-alt img.icon-table {
     background-color: rgb(142,47,60);
 }
 
+#book-table-section {
+    margin-top: 24px; 
+}
+
+
 #box-booking {
     background-color: rgb(55,126,128); 
     text-align: center;
