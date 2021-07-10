@@ -72,6 +72,11 @@ button {
     color: white; 
 }
 
+span {
+    color: rgb(61,141,115); 
+    font-weight: 400;
+}
+
 /*-----NAVBAR-----*/
 .mobile {
     display: none; 
@@ -278,19 +283,37 @@ section.content-alt img.icon-table {
 
 /*---FULL WIDTH CONTENT Section---*/
 
-/*---Instagram Section---*/
-.instagram-content {
-    height: 250px; 
-    margin: 24px 0px 0px 0px; 
-    text-align: center;
-    background-color: lightgray
-}
-.section-header{
-    padding: 24px 0px 8px 0px; 
-    text-align: center;
-}
 .section-header h3 {
     color: rgb(76,190,222); 
+}
+
+/*---Instagram Section---*/
+.instagram-content {
+    text-align: center;
+    padding: 24px; 
+}
+
+.instagram-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-name a{
+    margin-right: 10px;
+    color: rgb(61,141,115); 
+    font-weight: 600;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-images img {
+    float: left;
+    width: 24%;
+    padding: 10px 0px 0px 0px;
 }
 
 /*-----Map Section-----*/
