@@ -72,6 +72,11 @@ button {
     color: white; 
 }
 
+span {
+    color: rgb(61,141,115); 
+    font-weight: 400;
+}
+
 /*-----NAVBAR-----*/
 .mobile {
     display: none; 
@@ -201,6 +206,11 @@ section.content-alt img.icon-table {
     background-color: rgb(142,47,60);
 }
 
+#book-table-section {
+    margin-top: 24px; 
+}
+
+
 #box-booking {
     background-color: rgb(55,126,128); 
     text-align: center;
@@ -278,38 +288,61 @@ section.content-alt img.icon-table {
 
 /*---FULL WIDTH CONTENT Section---*/
 
-/*---Instagram Section---*/
-.instagram-content {
-    height: 250px; 
-    margin: 24px 0px 0px 0px; 
-    text-align: center;
-    background-color: lightgray
-}
-.section-header{
-    padding: 24px 0px 8px 0px; 
+.section-header {
     text-align: center;
 }
+
 .section-header h3 {
     color: rgb(76,190,222); 
 }
 
-/*-----Map Section-----*/
-.map-content {
-    background-color: rgb(238,233,208); 
-    height: 225px; 
-    padding: 22px; 
+/*---Instagram Section---*/
+.instagram-content {
+    text-align: center;
+    padding: 24px; 
 }
 
-.address-info-wrapper {
-    max-width: 960px;
-    margin: 0px auto;
+.social-media-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-instagram a{
+    margin-right: 10px;
+    color: rgb(61,141,115); 
+    font-weight: 600;
+}
+
+.social-media-instagram img{
+    width: 24px;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-images img {
+    float: left;
+    width: 24%;
+    padding: 10px 0px 0px 0px;
+}
+
+/*-----Map Section-----*/
+
+.map-image img {
+    height: 310px; 
+    width: 100%;
+    object-fit: cover;
 }
 
 .address-info {
     background-color: white;
     width: 128px;
     padding: 25px; 
-    margin-top: 8px; 
+    margin: 24px; 
+    position: absolute;
 }
 
 .logo img {
@@ -320,28 +353,46 @@ section.content-alt img.icon-table {
 /*-----FOOTER-----*/
 
 footer {
-    max-width: 960px;
+    max-width: 620px;
     margin: 0px auto; 
     padding: 24px; 
-    height: 180px; 
+    height: 200px; 
 }
 
 .footer {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 32px;
 }
 
 .footer-logo img {
+    float: right;
     width: 150px;
-    text-align: center;
+    margin-top: -50px;
 }
 
-.footer-social-media-icons {
-    margin-top: 20px;
-    text-align: right;
+.social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px; 
 }
+
+.social-media-icons img {
+    text-align: right;
+    width: 30px; 
+}
+
+ #footer-icons {
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+ }
+ #footer-icons img {
+    margin: 0px 5px; 
+ }
+
 
 /******************TABLET******************/
 
@@ -524,9 +575,20 @@ footer {
         padding: 24px 24px 84px 24px; 
     }
 
+    /*---Instagram Section---*/
+    .instagram-images {
+        display: grid;
+        justify-content: center;
+    }
+
+    .instagram-images img {
+        width: 100%;
+        padding-top: 15px;
+    }
+
     /*---FOOTER---*/
     footer {
-        height: 380px; 
+        height: 450px; 
     }
 
     .footer {
@@ -541,8 +603,21 @@ footer {
         margin-top: 24px; 
     }
     
-    .footer-social-media-icons {
+    .social-media-icons {
         text-align: left;
+    }
+
+    .footer-logo {
+        text-align: center;
+
+    }
+    .footer-logo img {
+        float: none;
+        margin-top: 24px;
+    }
+
+    #footer-icons {
+        justify-content: flex-start;
     }
     
 }
