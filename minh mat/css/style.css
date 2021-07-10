@@ -317,22 +317,19 @@ section.content-alt img.icon-table {
 }
 
 /*-----Map Section-----*/
-.map-content {
-    background-color: rgb(238,233,208); 
-    height: 225px; 
-    padding: 22px; 
-}
 
-.address-info-wrapper {
-    max-width: 960px;
-    margin: 0px auto;
+.map-image img {
+    height: 255px; 
+    width: 100%;
+    object-fit: cover;
 }
 
 .address-info {
     background-color: white;
     width: 128px;
     padding: 25px; 
-    margin-top: 8px; 
+    margin: 24px; 
+    position: absolute;
 }
 
 .logo img {
