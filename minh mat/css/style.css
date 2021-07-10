@@ -261,7 +261,11 @@ section.content-alt img.icon-table {
     font-weight: 600; 
 }
 
-#takeaway, #book-table {
+#book-takeaway {
+    background-color: rgb(142,47,60);
+}
+
+#book-takeaway, #book-table {
     width: 250px; 
     height: 48px;
     border-radius: 20px;
