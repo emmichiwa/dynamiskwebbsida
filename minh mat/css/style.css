@@ -10,8 +10,9 @@ body {
 header {
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
-    margin-bottom: 8px; 
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 0px 24px; 
 }
 
 h1 {
@@ -82,32 +83,35 @@ span {
     display: none; 
 }
 
+.header-logo a img {
+    width: 125px; 
+    margin: 24px 0px 10px 0px; 
+    float: left;
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    float: right;
+    margin-bottom: 10px; 
 }
 
-.navbar-logo a img {
-    width: 100px; 
-    margin: 24px 24px 8px 24px; 
-}
-.navbar-container {
-    background-color: rgb(210, 224, 215); 
-    padding: 18px; 
-}
-.navbar a{
+.navbar-links a{
     font-weight: 500;
-    margin: 8px;
+    margin: 0px 8px;
 }
-.navbar-button{
-    padding: 8px; 
-}
+
 .navbar-button button{
     box-shadow: 2px 3px 4px rgb(177,182,178);
+    margin: 0px 26px 0px 18px;
 }
 .navbar-button a{
     color: white; 
+    font-weight: 500;
+}
+.navbar-button a:hover {
+    color: rgb(61,141,115); 
 }
 
  /*---MAIN CONTENT Section---*/
@@ -414,41 +418,58 @@ footer {
     section.content #book-table-image img {
         width: auto; 
     }
-    
 }
 
 /******************TABLET******************/
 
 @media screen and (max-width: 768px) {
-
-    header {
-        display: block;
-        margin: 0px;
-    }
     
     /*-----NAVBAR-----*/
 
-    .mobile {
+    #toggleMobile {
         display: block;
         width: 35px;
         float: right;
-        margin: 24px 24px 8px 24px;
+        margin: 32px 24px;
+    }
+
+    header {
+        display: block;
+        padding: 0px; 
+        justify-content: stretch;
+    }
+
+    .header-logo {
+        background-color: white;
+        display: inline-block;
+        width: 100%
+    }
+
+    .header-logo a img {
+        width: 124px;
+        margin: 24px 24px 10px 24px; 
     }
 
     .navbar {
-        display: none;
-        align-items: flex-start;
+        display: block;
+        float: none;
         background-color: rgb(210,224,215);
-        padding: 18px; 
+        padding: 24px; 
+        margin-bottom: 0px; 
     }
     .navbar-links {
         display: grid; 
-
-    }
-    .navbar-button {
-        margin-bottom: 16px; 
+        width: 100px;
     }
 
+    .navbar-links a {
+        margin: 10px 0px 0px 0px; 
+    }
+
+    .navbar-button button{
+        margin: 18px 0px 22px 0px;
+    }
+   
     /*-----MAIN-----*/
     .hero-img img {
         height: 400px;
