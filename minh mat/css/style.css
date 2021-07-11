@@ -446,14 +446,14 @@ footer {
     }
 
     .header-logo a img {
+        width: 124px;
         margin: 24px 24px 10px 24px; 
     }
 
     .navbar {
         display: block;
-        float: left;
+        float: none;
         background-color: rgb(210,224,215);
-        width: 100%;
         padding: 24px; 
         margin-bottom: 0px; 
     }
