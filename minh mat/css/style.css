@@ -84,7 +84,7 @@ span {
 }
 
 .header-logo a img {
-    width: 100px; 
+    width: 125px; 
     margin: 24px 0px 10px 0px; 
     float: left;
 }
@@ -430,7 +430,7 @@ footer {
         display: block;
         width: 35px;
         float: right;
-        margin: 24px 24px 8px 24px;
+        margin: 32px 24px;
     }
 
     header {
