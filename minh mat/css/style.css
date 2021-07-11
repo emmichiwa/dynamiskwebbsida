@@ -10,8 +10,10 @@ body {
 header {
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
-    margin-bottom: 8px; 
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 0px 24px; 
 }
 
 h1 {
@@ -82,24 +84,26 @@ span {
     display: none; 
 }
 
+.header-logo a img {
+    width: 100px; 
+    margin: 24px 0px 10px 0px; 
+    float: left;
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 550px; 
+    float: right;
+    margin-bottom: 10px; 
 }
 
-.navbar-logo a img {
-    width: 100px; 
-    margin: 24px 24px 8px 24px; 
-}
-.navbar-container {
-    background-color: rgb(210, 224, 215); 
-    padding: 18px; 
-}
-.navbar a{
+.navbar-links a{
     font-weight: 500;
-    margin: 8px;
+    margin: 0px 8px;
 }
+
 .navbar-button{
     padding: 8px; 
 }
@@ -414,17 +418,11 @@ footer {
     section.content #book-table-image img {
         width: auto; 
     }
-    
 }
 
 /******************TABLET******************/
 
 @media screen and (max-width: 768px) {
-
-    header {
-        display: block;
-        margin: 0px;
-    }
     
     /*-----NAVBAR-----*/
 
@@ -435,16 +433,36 @@ footer {
         margin: 24px 24px 8px 24px;
     }
 
-    .navbar {
-        display: none;
-        align-items: flex-start;
+    header {
         background-color: rgb(210,224,215);
-        padding: 18px; 
+        display: grid;
+        padding: 0px; 
+        justify-content: stretch;
+    }
+
+    .header-logo {
+        background-color: white;
+    }
+
+    .header-logo a img {
+        margin: 24px 24px 10px 24px; 
+    }
+
+    .navbar {
+        display: grid; 
+        max-width: 960px;
+        float: left;        
+        margin: 24px;
     }
     .navbar-links {
         display: grid; 
-
+        width: 100px;
     }
+
+    .navbar-links a {
+        margin: 10px 0px 0px 0px; 
+    }
+
     .navbar-button {
         margin-bottom: 16px; 
     }
