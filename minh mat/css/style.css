@@ -28,6 +28,10 @@ h2 {
     margin: 0px;
     font-size: 1.5em;
 }
+
+h2 a {
+    color: black; 
+}
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -325,14 +329,9 @@ section.content-alt img.icon-table {
     align-items: center;
 }
 
-.social-media-instagram a{
-    margin-right: 10px;
-    color: rgb(61,141,115); 
-    font-weight: 600;
-}
-
 .social-media-instagram img{
     width: 24px;
+    padding: 5px;
 }
 
 .instagram-images {
