@@ -54,16 +54,13 @@ a {
 
 a {
     text-decoration: none;
-    color: black; 
-    transition: color 0.3s;
+    color: rgb(61,141,115); 
+    font-weight: 500;
 }
 
 a:hover {
-    color: rgb(61,141,115); 
-}
-
-a.active {
-    color: rgb(61,141,115); 
+    font-weight: 600;
+    transition: color 0.3s;
 }
 
 button {
@@ -98,9 +95,19 @@ span {
     margin-bottom: 10px; 
 }
 
-.navbar-links a{
+.navbar-links a {
+    color: black; 
     font-weight: 500;
     margin: 0px 8px;
+}
+
+.navbar-links a:hover {
+    color: rgb(61,141,115); 
+    transition: color 0.3s;
+}
+
+.navbar-links a.active {
+    color: rgb(61,141,115); 
 }
 
 .navbar-button button{
@@ -136,14 +143,6 @@ span {
 
 #main-page p{
     margin-top: 32px; 
-}
-
-.review-names a{
-    font-weight: 500;
-    color: rgb(61,141,115);
-}
-.review-names a:hover {
-    font-weight: 800;
 }
 
 section.content {
@@ -382,6 +381,10 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     margin-top: 32px;
+}
+
+.footer-hours, .footer-contact {
+    width: 150px; 
 }
 
 .footer-logo img {
