@@ -402,37 +402,12 @@ footer {
 /******************TABLET******************/
 
 @media screen and (max-width: 940px) {
-    
-    .book-table-box h3 {
-        font-size: 0.9em;
-        line-height: 1.2em;
+
+    .social-media-icons {
+        margin: 0px auto; 
     }
 
-    #book-table-box{
-        grid-column: 6 / span 12;
-        padding: 24px; 
-    }
-    #book-table-image{
-        grid-column: 1 / span 4;   
-    }
-
-    section.content #book-table-image img {
-        width: auto; 
-    }
-}
-
-/******************TABLET******************/
-
-@media screen and (max-width: 768px) {
-    
     /*-----NAVBAR-----*/
-
-    #toggleMobile {
-        display: block;
-        width: 35px;
-        float: right;
-        margin: 32px 24px;
-    }
 
     header {
         display: block;
@@ -457,10 +432,10 @@ footer {
         background-color: rgb(210,224,215);
         padding: 24px; 
         margin-bottom: 0px; 
+        text-align: center;
     }
     .navbar-links {
         display: grid; 
-        width: 100px;
     }
 
     .navbar-links a {
@@ -470,7 +445,39 @@ footer {
     .navbar-button button{
         margin: 18px 0px 22px 0px;
     }
-   
+
+    #toggleMobile {
+        display: block;
+        width: 35px;
+        float: right;
+        margin: 32px 24px;
+    }
+    
+    /*-----MAIN-----*/
+
+    .book-table-box h3 {
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+
+    #book-table-box{
+        grid-column: 6 / span 12;
+        padding: 24px; 
+    }
+    #book-table-image{
+        grid-column: 1 / span 4;   
+    }
+
+    section.content #book-table-image img {
+        width: auto; 
+    }
+}
+
+/******************TABLET******************/
+
+@media screen and (max-width: 768px) {
+    
+    
     /*-----MAIN-----*/
     .hero-img img {
         height: 400px;
@@ -532,8 +539,14 @@ footer {
         display: none;
     }
 
-    .hero-img img {
-        height: auto;
+    /*-----NAVBAR-----*/
+
+    .navbar {
+        text-align: left;
+    }
+
+    .social-media-icons {
+        margin: 0px; 
     }
 
     /*---HOME-Main section---*/
