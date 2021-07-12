@@ -114,15 +114,15 @@ span {
     color: rgb(61,141,115); 
 }
 
-.navbar-button button{
+.giftcard-button button{
     box-shadow: 2px 3px 4px rgb(177,182,178);
     margin: 0px 26px 0px 18px;
 }
-.navbar-button a{
+.giftcard-button a{
     color: white; 
     font-weight: 500;
 }
-.navbar-button a:hover {
+.giftcard-button a:hover {
     color: rgb(61,141,115); 
 }
 
@@ -472,7 +472,7 @@ footer {
         margin: 10px 0px 0px 0px; 
     }
 
-    .navbar-button button{
+    .giftcard-button button{
         margin: 18px 0px 22px 0px;
     }
 
