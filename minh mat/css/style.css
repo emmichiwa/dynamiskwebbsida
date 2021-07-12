@@ -145,10 +145,6 @@ span {
     
 }
 
-#main-page p{
-    margin-top: 32px; 
-}
-
 section.content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
