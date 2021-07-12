@@ -138,6 +138,14 @@ span {
     margin-top: 32px; 
 }
 
+.review-names a{
+    font-weight: 500;
+    color: rgb(61,141,115);
+}
+.review-names a:hover {
+    font-weight: 800;
+}
+
 section.content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
