@@ -115,12 +115,18 @@ span {
     color: rgb(61,141,115); 
 }
 
- /*---MAIN CONTENT Section---*/
+ /*---MAIN---*/
 
 .hero-img img {
     width: 100%;
     height: 500px;
     object-fit: cover; 
+}
+
+.page-header {
+    height: 50px;
+    text-align: center;
+    padding-top: 24px;
 }
 
 .main-content {
@@ -480,7 +486,9 @@ footer {
     
     /*-----MAIN-----*/
     .hero-img img {
+        width: 100%;
         height: 400px;
+        object-fit: cover; 
     }
 
     section.content div.box {
@@ -549,7 +557,7 @@ footer {
         margin: 0px; 
     }
 
-    /*---HOME-Main section---*/
+    /*---MAIN---*/
 
     section.content, section.content div.image, section.content div.box {
         grid-template-columns: repeat(4, 1fr);
