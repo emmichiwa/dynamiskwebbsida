@@ -274,6 +274,7 @@ button.book-table-button a:hover {
     align-items: flex-end;
     margin-top: -102px;
     margin-bottom: 62px;
+    height: 62px; 
 }
 #icon-takeaway img {
     height: 62px; 
