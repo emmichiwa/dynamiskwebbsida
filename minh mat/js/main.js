@@ -1,10 +1,14 @@
 console.log('Testing navbar for mobile');
 
+/*This code fixes navbar bug -> navbar disappeared on resizing*/
+$(window).resize(function(){location.reload();});
+
 let mobileNavbar = $('#toggleMobile');
 mobileNavbar.click(function(){
     $("nav").toggle();
   });
 
+ /*"Animation" for booking page images*/ 
   $('.image-takeaway').on('mouseenter',function(){
     $(this).css('height', '70px'); 
   }).on('mouseleave', function() {
