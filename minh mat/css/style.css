@@ -608,7 +608,7 @@ section.content, section.content div.image, section.content div.box {
         justify-content: center;
         height: 150px; 
         margin-top: 24px;
-        margin-bottom: 48px;
+        margin-bottom: 78px;
     }
     .meny-buttons button {
         width: 350px; 
@@ -683,7 +683,7 @@ section.content, section.content div.image, section.content div.box {
     .meny-buttons {
         height: 100px;
         margin-top: 32px;
-        margin-bottom: 50px;
+        margin-bottom: 62px;
     }
     .meny-buttons button {
         width: 250px; 
