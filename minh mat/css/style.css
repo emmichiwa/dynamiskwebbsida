@@ -277,7 +277,7 @@ button.book-table a:hover {
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: -102px;
-    margin-bottom: 65px;
+    margin-bottom: 42px;
 }
 #icon-takeaway img {
     height: 62px; 
@@ -329,7 +329,7 @@ button.book-table a:hover {
 }
 
 /*---Instagram Section---*/
-.instagram-content {
+.instagram-section {
     text-align: center;
     padding: 24px; 
 }
