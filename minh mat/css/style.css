@@ -577,13 +577,11 @@ footer {
 
     /*---MAIN---*/
 
-    section.content, section.content div.image, section.content div.box {
+section.content, section.content div.image, section.content div.box {
         grid-template-columns: repeat(4, 1fr);
-    }
-
-    section.content, section.content div.image, section.content div.box {
         grid-column: 1 / span 4;
     }
+
 
     section.content div.box {
         padding: 42px; 
