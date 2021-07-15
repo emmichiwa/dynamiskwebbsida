@@ -223,22 +223,18 @@ section.content-alt img.icon-table {
     background-color: rgb(142,47,60);
 }
 
-#book-table-section {
-    margin-top: 24px; 
-}
-
-button.book-table {
+button.book-table-button {
     width: 150px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-button.book-table a {
+button.book-table-button a {
     color: white;  
     font-weight: 500;
     font-size: 1.2em;
 }
 
-button.book-table a:hover {
+button.book-table-button a:hover {
     font-weight: 600;
 }
 
@@ -277,7 +273,7 @@ button.book-table a:hover {
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: -102px;
-    margin-bottom: 42px;
+    margin-bottom: 62px;
 }
 #icon-takeaway img {
     height: 62px; 
@@ -322,6 +318,7 @@ button.book-table a:hover {
 
 .section-header {
     text-align: center;
+    margin-top: 24px; 
 }
 
 .section-header h3 {
@@ -331,7 +328,7 @@ button.book-table a:hover {
 /*---Instagram Section---*/
 .instagram-section {
     text-align: center;
-    padding: 24px; 
+    padding: 0px 24px 24px 24px; 
 }
 
 .social-media-instagram {
