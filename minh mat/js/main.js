@@ -1,7 +1,10 @@
 console.log('Testing navbar for mobile');
 
 /*This code fixes navbar bug -> navbar disappeared on resizing*/
-$(window).resize(function(){location.reload();});
+$(window).resize(function(){
+  if($(window).width() > 768) { /*this bug fixes scroll page bug on mobile*/
+  location.reload()}
+});
 
 let mobileNavbar = $('#toggleMobile');
 mobileNavbar.click(function(){
