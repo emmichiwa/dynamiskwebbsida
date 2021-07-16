@@ -2,7 +2,7 @@ console.log('Testing navbar for mobile');
 
 /*This code fixes navbar bug -> navbar disappeared on resizing*/
 $(window).resize(function(){
-  if($(window).width() > 768) { /*this bug fixes scroll page bug on mobile*/
+  if($(window).width() > 940) { /*this bug fixes scroll page bug on width less than 940px*/
   location.reload()}
 });
 
